@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { DestinosRoutingModule } from './destinos-routing.module';
 import { ListadoComponent } from './listados/listado/listado.component';
+import { MaterialModule } from '../material/material.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { ListadoComponent } from './listados/listado/listado.component';
   ],
   imports: [
     CommonModule,
-    DestinosRoutingModule
+    DestinosRoutingModule,
+    MaterialModule
   ]
 })
 export class DestinosModule { }
